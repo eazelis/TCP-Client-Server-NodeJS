@@ -9,7 +9,7 @@ with an appropriate message asking to make a booking. The system should allow th
 book multiple different tickets for both adult and children at once. The booking format for example
 could be:
 
-[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket n] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets].
+[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket] 
 
 However, it is up to you the input form you should use.
 The server should book all the tickets that are available and indicate those where the person is put
