@@ -1,0 +1,4 @@
+Saturday 25 20 100
+VIP 50 25 97
+Sunday 10 7.5 100
+Weekend 30 22 100

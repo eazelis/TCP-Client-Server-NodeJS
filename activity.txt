@@ -1,0 +1,4 @@
+Baking 8 5 99
+Dancing_Class 15 10 100
+Craft 10 7.5 100
+Disco 15 11 100
