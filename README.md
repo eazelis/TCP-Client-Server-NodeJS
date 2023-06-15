@@ -1,14 +1,14 @@
-<b>Project Title:</b> Festival Booking System for Robotics Festival
+<h6><b>Project Title:Festival Booking System for Robotics Festival </b></h6> 
 This project entails the design and implementation of a TCP client-server system that facilitates the booking of tickets for a Robotics Festival.
 
-Project Description
+<h6><b> Project Description </b></h6> 
 Utilizing the provided TCP server code (tcp_server.cc and tcp_client.cc from Session 17), or alternatively developing your own client-server system in your preferred programming language, this project aims to deliver a seamless ticket booking experience for festival attendees.
 
 The Festival Booking System will provide a quote to the client for booking tickets. Upon connecting, the client will be greeted with a user-friendly message prompting them to proceed with the booking. The system is designed to accommodate the booking of multiple tickets, differentiated by adult and child categories, in a single transaction.
 
 The suggested booking format is as follows:
 
-[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket]
+<b>[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket]</b>
 
 However, the final decision on the input format is flexible and can be adapted to your preference.
 
