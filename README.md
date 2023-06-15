@@ -1,31 +1,26 @@
-Assignment description:
+Project Title: Festival Booking System for Robotics Festival
+This project entails the design and implementation of a TCP client-server system that facilitates the booking of tickets for a Robotics Festival.
 
-Modify the given TCP server (use the tcp_server.cc and tcp_client.cc and
-Makefile code in Session 17) or create your own client server system using a programming
-language of your choice that allows people to book tickets for a festival.
-Create a Festival Booking System for the Robotics Festival using the client/server approach. The
-system will be able to return a quote for booking tickets for the festival. The client will be greeted
-with an appropriate message asking to make a booking. The system should allow the person to
-book multiple different tickets for both adult and children at once. The booking format for example
-could be:
+Project Description
+Utilizing the provided TCP server code (tcp_server.cc and tcp_client.cc from Session 17), or alternatively developing your own client-server system in your preferred programming language, this project aims to deliver a seamless ticket booking experience for festival attendees.
 
-[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket] 
+The Festival Booking System will provide a quote to the client for booking tickets. Upon connecting, the client will be greeted with a user-friendly message prompting them to proceed with the booking. The system is designed to accommodate the booking of multiple tickets, differentiated by adult and child categories, in a single transaction.
 
-However, it is up to you the input form you should use.
-The server should book all the tickets that are available and indicate those where the person is put
-on a waiting list. You could also include a discount of 10% if the person spends more than £500.
-The user could type in ‘Hamzepur VIP 3 2 Saturday 1 0’ into the client terminal
-(Connected to the server), the server will reply with:’Hamzepur Your Tickets for the
-Robotics Festival are booked and cost £225. No discount given’. The
-system should check if the information typed in is correct, such as is the type of the ticket one of
-those provided. The system should check if the specific tickets are sold out, and if they are put the
-person on the waiting list for those tickets and then process only the available tickets. 
+The suggested booking format is as follows:
 
-Once the user has booked their tickets, they should be allowed to book activities to take part in at
-the festival. The client should ask the user what additional activities they wish to book, pass
-these to the server who calculates the cost and then the server passes the booking information
-to the client who prints the cost of additional activities on the screen. The cost of the tickets and
-the cost of activities should be combined to create a final total. 
+[Name] [Type of Ticket] [Quantity of Adult’s tickets] [Quantity of Children’s Tickets] [Type of Ticket]
+
+However, the final decision on the input format is flexible and can be adapted to your preference.
+
+The server's responsibility is to handle all available ticket bookings and provide appropriate feedback when the client is added to a waiting list due to ticket unavailability. An enticing feature of this system is the automatic application of a 10% discount for transactions exceeding £500.
+
+For example, if a user types Hamzepur VIP 3 2 Saturday 1 0 into the client terminal (connected to the server), the server will respond with: Hamzepur, Your Tickets for the Robotics Festival are booked and cost £225. No discount given.
+
+The system ensures accuracy by validating the input information. It checks whether the ticket type exists in the provided options and whether the specific tickets are available. If the tickets are sold out, the system will add the client to the waiting list for those tickets and proceed to process the available ones.
+
+Once the ticket booking process is completed, the system provides the option to book additional festival activities. The client will inquire about the desired activities from the user, send this information to the server, and the server will then calculate the cost. The cost of the activities, returned to the client, is then displayed on the screen.
+
+The total cost of the experience (tickets and activities) is then calculated and presented as a final total.
 
 ![image](https://user-images.githubusercontent.com/95705759/171916861-188e2435-201e-4b5e-9401-bc30e9011d6e.png)
 
