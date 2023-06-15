@@ -1,4 +1,4 @@
-Project Title: Festival Booking System for Robotics Festival
+<b>Project Title:</b> Festival Booking System for Robotics Festival
 This project entails the design and implementation of a TCP client-server system that facilitates the booking of tickets for a Robotics Festival.
 
 Project Description
